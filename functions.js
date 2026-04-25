@@ -22,13 +22,14 @@ function loginUserMessage(username) {
 
 // console.log(loginUserMessage());
 
-
-
 // Functions with arrays and Object
 
-function calculateCart(num1) {
+function calculateCart(val1, val2, ...num1) {   //rest operator (... ) returns array of items
     return num1
 }
 
-console.log(calculateCart(100, 200, 300));
+console.log(calculateCart(100, 200, 300, 3323, 3, 3434)); //val1=100 , val2=200
 
+const name ={
+    
+}

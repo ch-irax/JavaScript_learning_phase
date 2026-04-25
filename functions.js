@@ -31,3 +31,4 @@ function calculateCart(num1) {
 }
 
 console.log(calculateCart(100, 200, 300));
+

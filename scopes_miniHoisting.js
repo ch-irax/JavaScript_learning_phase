@@ -7,6 +7,21 @@ if (true) {
     console.log(`Inner variable ${a}`);
 }
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+function first() {
+    const name = "MAv"
+
+    function second() {
+        const surname = "rik"
+        console.log(name);
+
+    }
+    // console.log(surname);   we cant access anything from local scope in global and vice versa
+
+    second()
+}
+
+first( )

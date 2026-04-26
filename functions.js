@@ -47,10 +47,10 @@ function handleobject(any_object) {
 //     age:33,
 //     id:"sdadwee32"
 // })
- 
-let myArray = [100,300,500,700,900]
 
-function fetchSecond(anyArray){
+let myArray = [100, 300, 500, 700, 900]
+
+function fetchSecond(anyArray) {
     return anyArray[1]
 }
 

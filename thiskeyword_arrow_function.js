@@ -32,3 +32,6 @@ const add_two = (num1, num2) => {
 }
 
 console.log(add_two(6, 7));
+
+const add_ = (num1, num2) => (num1 + num2)  // typical arroww function without return keyword and {}
+console.log(add_(6, 6));

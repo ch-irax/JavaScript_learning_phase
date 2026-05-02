@@ -20,6 +20,19 @@ let token = 500
 
 // Single statement can be executed in the same line 
 let limit = 100
-if (limit < token) console.log("Limit achieved"), console.log("Try after 10hrs");
+// if (limit < token) console.log("Limit achieved"), console.log("Try after 10hrs"); // considered but not a good practice to use in production
 
+const isLoggedIn = true
+const isLoggedIn_google = false
+const is_elder = true
+const has_debitcard = true
 
+if (isLoggedIn && has_debitcard) {  //both conditions should be satisfied AND operator
+    console.log("Access granted");
+}
+if (isLoggedIn && is_elder) {
+    console.log("keys granted");
+}
+if (isLoggedIn || isLoggedIn_google) {  //any one condition should satisfy  OR operator
+    console.log("Ready to proceed");
+}

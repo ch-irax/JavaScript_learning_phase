@@ -10,4 +10,4 @@
 
 ((name) => {
     console.log(`DB 2connected ${name}`);
-})("MAV") 
+})("MAV")

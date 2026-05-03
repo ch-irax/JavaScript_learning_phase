@@ -35,12 +35,13 @@ if (usr_email) {  // string is considered true and floe continues
 // 6. function () {}  - empty function
 
 const ex_object = {}
+
+
 // Object.keys() returns the array of the elements and  .length checks the length of the array.
 if (Object.keys(ex_object).length === 0) {
     console.log("Empty object");
 
 }
-
 
 // false == 0  -> true
 // false == '' -> true

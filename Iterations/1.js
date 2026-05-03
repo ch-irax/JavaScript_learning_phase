@@ -35,13 +35,13 @@ for (let i = 1; i <= 20; i++) {
         // console.log("detected 5");
         break  // stops the control flow completely
     }
-    // console.log(`Vslue of i ${i}`);
+    // console.log(`Value of i ${i}`);
 
 }
 for (let i = 1; i <= 20; i++) {
     if (i == 5) {
         console.log("detected 5");
-        continue  // stopps the control flow once
+        continue  // stops the control flow once
     }
     console.log(`Vslue of i ${i}`);
 

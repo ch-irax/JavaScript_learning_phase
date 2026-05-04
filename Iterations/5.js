@@ -40,4 +40,4 @@ const mycode = [
 mycode.forEach((item) => {
     console.log(item.language);
 
-});
+}); 

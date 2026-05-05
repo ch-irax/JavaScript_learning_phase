@@ -1,12 +1,12 @@
-// const coding = ["js", "python", "cpp", "ruby", "go", "typescript"]
+const coding = ["js", "python", "cpp", "ruby", "go", "typescript"]
 
-// const val = coding.forEach((item) => {
-// console.log(item);
-// return item
+const val = coding.forEach((item) => {
+console.log(item);
+return item
 
-// })
+})
 
-// console.log(val);
+console.log(val);
 
 // const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -38,6 +38,10 @@ const books = [
     { title: "book twelve", genre: "History", publish: "2014" },
     { title: "book thirteen", genre: "non fiction", publish: "1980" },
 ]
+
+
+// NOTE : -  filter() works on boolean value, it returns based on true or false 
+
 
 // const user_books = books.filter((item) => {
 //     return item.genre == "non fiction"

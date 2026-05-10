@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Phase2 </title>
+</head>
+<style>
+    .all {
+        background-color: #212121;
+        color: azure;
+    }
+</style>
+
+<body class="all">
+    <h1 class="head" id="hh">Days <span style="display: none;">selected</span></h1>
+
+    <div class="parent">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thr</div>
+    </div>
+</body>
+
+<script>
+    const parent = document.querySelector(".parent")
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1]);
+
+    for (let index = 0; index < parent.children.length; index++) {
+        console.log(parent.children[index].innerHTML);
+
+    }
+    parent.children[1].style.color = "orange"
+    console.log(parent);
+
+
+</script>
+
+</html>

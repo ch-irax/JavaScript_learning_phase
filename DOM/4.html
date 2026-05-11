@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Phase 4</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+
+<script>
+    function addlang(langname) {
+        const li = document.createElement("li")
+        li.innerHTML = `${langname}`
+        document.querySelector(".language").appendChild(li)
+
+    }
+    addlang("ruby")
+    addlang("Typescript")
+
+    function optimizedlang(langname) {
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector(".language").appendChild(li)
+    }
+
+    optimizedlang("golang")
+
+
+    // edit
+    const seclang = document.querySelector("li:nth-child(2)")
+
+    // seclang.innerHTML = "mojorojo"
+
+    const li = (document.createElement("li"))
+    li.innerHTML = "mojo"
+    seclang.replaceWith(li)
+
+
+    // edit
+    const feclang = document.querySelector("li:first-child")
+    feclang.outerHTML = "<li>TypeScriptRR</>"
+
+
+    // remove
+    const rm = document.querySelector("li:nth-child(3)")
+    rm.remove()
+</script>
+
+</html>

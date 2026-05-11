@@ -15,8 +15,8 @@
 
 <body class="all">
     <h1 class="head" id="hh">Days <span style="display: none;">selected</span></h1>
-
     <div class="parent">
+        <!-- comment -->
         <div class="day">Mon</div>
         <div class="day">Tue</div>
         <div class="day">Wed</div>
@@ -42,7 +42,9 @@
     const dayone = document.querySelector(".day")
     console.log(dayone);
     console.log(dayone.parentElement);  // this method helps to get a particular element rather than traversing the complete tree
+    console.log(dayone.nextElementSibling);
     
+    console.log("NODES: ", parent.childNodes);
     
 
 </script>

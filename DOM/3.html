@@ -16,5 +16,19 @@
 <body class="all">
 </body>
 
+<script>
+    const div = document.createElement("div") // to create elements in html
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "gentitle")
+    div.style.backgroundColor = "blue"
+    div.innerText = "method 1"
+    // const textnode = document.createTextNode("method 2")
+    // div.appendChild(textnode)
+
+
+    document.body.appendChild(div)  //this attaches the element in the page
+</script>
 
 </html>

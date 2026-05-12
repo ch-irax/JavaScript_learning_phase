@@ -1,0 +1,14 @@
+JavaScript is Synchronous
+-> single threaded
+
+execution -> one line after another
+
+Blockng code  Vs Non-Blocking code
+|                              |
+V                              V
+Blocks the flow           Does not block the 
+of program                   execution
+|                               |
+V                               V
+Reads file sync             Read file Async
+

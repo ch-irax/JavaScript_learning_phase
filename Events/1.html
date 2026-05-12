@@ -1,23 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
 </head>
+<style>
+    #photoshop {
+        height: 40px;
+        width: 60px;
+        border: 1px solid;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    button {
+        margin: 20px;
+    }
+
+    #imgs {
+        height: 50px;
+        width: 70px;
+        border: 1px solid;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: aquamarine;
+    }
+
+    .images {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 70vh;
+        border: 1px solid;
+        background-color: cadetblue;
+        border-radius: 2px;
+    }
+</style>
+
 <body style="background-color: #414141; color: aliceblue;">
     <h2>Amazing images</h2>
-    <div>
-        <ul class="images">
-            <li><img src="" alt="photoshop" id="photoshop"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+    <div class="images">
+        <ul>
+            <li> <a id="link" href="https://github.com/ch-irax">git</a>
+            </li>
+            <li><a href="www.google.com">google</a></li>
+            
         </ul>
-    </div>
+        <button id="imgs">click me again</button </div>
+        <button id="photoshop">click me</button>
 </body>
 <script>
-    
+
+    // document.getElementById("photoshop").onclick=function () {
+    //     alert("clicked!")
+    // }
+    // attachEvent()
+    // jQuery - on
+
+    // type,timestamp,defaultPrevented
+    // target, toElement
+    // srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altKey,ctrlKey,shiftKey,keyCode
+
+
+    // document.getElementById("photoshop").addEventListener("click", function () {
+    //     alert("clicked photoshop");
+
+    // }, false)
+
+    // document.querySelector(".images").addEventListener("click", function () {
+    //     alert("clicked imgs");
+
+    // }, false)
+
+    // document.getElementById("link").addEventListener("click", function (e) {
+    //     e.preventDefault()
+    //     alert("clicked imgs");
+
+    // }, false)
+
+
+
 </script>
-</html> 
+
+</html>

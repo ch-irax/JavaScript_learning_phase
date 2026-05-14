@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+<style>
+    .body {
+        background-color: #212121;
+        color: aliceblue;
+
+    }
+
+    .stop-button {
+        cursor: pointer;
+        height: 10vh;
+        width: 20vh;
+        border-radius: 15px;
+
+    }
+
+    .stop-button:hover {
+        background-color: cadetblue;
+    }
+</style>
+
+<body class="body">
+    <h1>JS Codes</h1>
+    <button class="stop-button">Stop</button>
+</body>
+<script>
+    // const name = () => {
+    //     console.log("Mav");
+
+    // }
+    const changetxt = () => {
+        document.querySelector("h1").innerHTML = "Javascript Series"
+    }
+
+    let changeMe = setTimeout(changetxt, 2000);
+
+    document.querySelector(".stop-button").addEventListener("click", function () {
+        clearTimeout(changeMe)
+        console.log("STOPPED");
+
+    })
+    // setTimeout(changetxt, 2000);
+</script>
+
+</html>

@@ -9,15 +9,15 @@ const promise_one = new Promise(function (resolve, reject) {
 
 promise_one.then(function () {
     console.log("Promise consumed");
-    
+
 })
 
-new Promise(function(resolve, reject){
-    setTimeout(function(){
+new Promise(function (resolve, reject) {
+    setTimeout(function () {
         console.log("Async task two");
         resolve()
-    },1000)
-}).then(function(){
+    }, 1000)
+}).then(function () {
     console.log("async 2 resolved");
-    
+
 })

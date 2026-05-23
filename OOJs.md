@@ -1,9 +1,5 @@
-# javascript and classes
-
-## OOP
-
-## Object
-- collection of properties and methods 
+# javascript and classes  OOP Object
+collection of properties and methods 
 
 ## parts of OOP
 Object literal
@@ -14,15 +10,15 @@ Object literal
 - Instances (nw,this)
 
 ## 4 Pillars 
-Abstraction
-Encapsulation
-Inhaertance
-Polymorphism
+1) Abstraction
+2) Encapsulation
+3) Inhaertance
+4) Polymorphism
 
 
 
 ## new keyword 
-- Generates a new object
-- Constructor function is called
-- this keyword is injected
-- it gives out the result 
+1) Generates a new object
+2) Constructor function is called
+3) this keyword is injected
+4) it gives out the result 

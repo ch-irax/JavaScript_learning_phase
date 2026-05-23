@@ -18,3 +18,11 @@ Abstraction
 Encapsulation
 Inhaertance
 Polymorphism
+
+
+
+## new keyword 
+- Generates a new object
+- Constructor function is called
+- this keyword is injected
+- it gives out the result 
